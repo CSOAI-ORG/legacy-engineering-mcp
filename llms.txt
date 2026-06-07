@@ -1,0 +1,21 @@
+# legacy-engineering-mcp
+
+> legacy-engineering-mcp — MCP server by MEOK AI Labs.
+
+MCP server by MEOK AI Labs. Framework: fastmcp. Transport: stdio.
+
+## Tools
+- calculate_passive_drainage
+- get_lime_kiln_parameters
+- get_fens_drainage_geometry
+- get_lime_mortar_composition
+- analyze_thermal_mass
+
+## Install
+```
+pip install legacy-engineering-mcp
+```
+
+## Links
+- PyPI: https://pypi.org/project/legacy-engineering-mcp/
+- Docs: https://meok.ai

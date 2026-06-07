@@ -1,0 +1,77 @@
+{
+  "name": "legacy-engineering-mcp",
+  "description": "legacy-engineering-mcp \u2014 MCP server by MEOK AI Labs.",
+  "url": "https://proofof.ai/scorecard/legacy-engineering-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "calculate_passive_drainage",
+      "name": "Calculate Passive Drainage",
+      "description": "calculate_passive_drainage via legacy-engineering-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "get_lime_kiln_parameters",
+      "name": "Get Lime Kiln Parameters",
+      "description": "get_lime_kiln_parameters via legacy-engineering-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "get_fens_drainage_geometry",
+      "name": "Get Fens Drainage Geometry",
+      "description": "get_fens_drainage_geometry via legacy-engineering-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "get_lime_mortar_composition",
+      "name": "Get Lime Mortar Composition",
+      "description": "get_lime_mortar_composition via legacy-engineering-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "analyze_thermal_mass",
+      "name": "Analyze Thermal Mass",
+      "description": "analyze_thermal_mass via legacy-engineering-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "meok_upsell",
+      "name": "Meok Upsell",
+      "description": "meok_upsell via legacy-engineering-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

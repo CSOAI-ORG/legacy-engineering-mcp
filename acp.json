@@ -1,0 +1,24 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "legacy-engineering-mcp",
+    "description": "legacy-engineering-mcp \u2014 MCP server by MEOK AI Labs.",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "legacy-engineering-mcp"
+      }
+    ],
+    "capabilities": [
+      "calculate_passive_drainage",
+      "get_lime_kiln_parameters",
+      "get_fens_drainage_geometry",
+      "get_lime_mortar_composition",
+      "analyze_thermal_mass",
+      "meok_upsell"
+    ]
+  }
+}

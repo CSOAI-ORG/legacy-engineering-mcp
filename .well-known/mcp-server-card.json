@@ -1,0 +1,28 @@
+{
+  "name": "legacy-engineering-mcp",
+  "title": "Legacy Engineering Mcp",
+  "description": "legacy-engineering-mcp \u2014 MCP server by MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "calculate_passive_drainage"
+    },
+    {
+      "name": "get_lime_kiln_parameters"
+    },
+    {
+      "name": "get_fens_drainage_geometry"
+    },
+    {
+      "name": "get_lime_mortar_composition"
+    },
+    {
+      "name": "analyze_thermal_mass"
+    }
+  ]
+}
