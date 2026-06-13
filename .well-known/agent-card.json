@@ -1,0 +1,117 @@
+{
+  "name": "Legacy Engineering Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/legacy-engineering-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "legacy-engineering-mcp — MCP server by MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "calculate_passive_drainage",
+      "name": "Calculate Passive Drainage",
+      "description": "Calculate Passive Drainage — a tool of the legacy-engineering-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "get_lime_kiln_parameters",
+      "name": "Get Lime Kiln Parameters",
+      "description": "Get Lime Kiln Parameters — a tool of the legacy-engineering-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "get_fens_drainage_geometry",
+      "name": "Get Fens Drainage Geometry",
+      "description": "Get Fens Drainage Geometry — a tool of the legacy-engineering-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "get_lime_mortar_composition",
+      "name": "Get Lime Mortar Composition",
+      "description": "Get Lime Mortar Composition — a tool of the legacy-engineering-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "analyze_thermal_mass",
+      "name": "Analyze Thermal Mass",
+      "description": "Analyze Thermal Mass — a tool of the legacy-engineering-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "legacy-engineering-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
